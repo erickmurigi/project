@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Manager</title>
+</head>
+<body>
+    <header>
+        <h1>Deche Project Manager</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#" id="viewAllProjects">View All Projects</a></li>
+          <li><a href="#" id="createProject">Create Project</a></li>
+        </ul>
+      </nav>
+      <main>
+        <link rel="stylesheet" href="styles.css">
+        <section id="projectList">
+          <h2>Projects</h2>
+          <!-- Project list will be dynamically populated here -->
+        </section>
+        <section id="createProjectForm" class="hidden">
+          <h2>Create Project</h2>
+          <form>
+            <label for="projectName">Project Name:</label>
+            <input type="text" id="projectName" name="projectName" required>
+            <button type="submit">Create</button>
+          </form>
+        </section>
+        <section id="viewProject" class="hidden">
+          <h2>View Project</h2>
+          <div id="projectDetails"></div>
+          <button id="deleteProject">Delete Project</button>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2022 Erick. All rights reserved.</p>
+      </footer>
+        <script src="app.js"></script>
+</body>
+</html>
+```

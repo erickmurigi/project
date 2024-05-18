@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #eea508;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li a {
+    color: #081fe9;
+    text-decoration: none;
+    font-weight: bolder;
+    display: block;
+    padding: 10px 15px;
+    background-color: #eea508;
+  }
+  nav ul li a:hover, button:hover {
+    color: #f52509;
+    cursor: pointer;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(5, 5, 5, 1);
+    margin-bottom: 20px;
+    max-height: 500px;
+  }
+  
+  .hidden {
+    display: none;
+
+  }
+  .hidden label {
+    display: block;
+    margin-bottom: 5px;
+    background-color: rgb(216, 124, 11);
+    color: rgb(236, 9, 9);
+    padding: 10px 15px;
+
+  }
+  .hidden input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .hidden button {
+    background-color: rgb(216, 124, 11);
+    color: rgb(236, 9, 9);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .hidden h2 {
+    margin-bottom: 10px;
+    color: rgb(236, 9, 9);
+  }
+  
+  footer {
+    background-color: #240303;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
